@@ -99,10 +99,17 @@
 
         <!-- Card -->
         <div class="card mb-6 mb-xl-0 shadow-light-lg">
-
+          <h3>
+            Suiside By Country
+          </h3>
           <!-- Image -->
           <a class="card-img-top" href="#!">
-            <img src="../assets/img/photos/photo-7.jpg" alt="..." class="img-fluid">
+            <div id="mydiv"></div>
+            <br>
+            <br>
+            <svg id="my_dataviz" width="800" height="300"></svg>
+
+            <!-- <img src="../assets/img/photos/photo-7.jpg" alt="..." class="img-fluid"> -->
           </a>
 
           <!-- Shape -->
@@ -112,20 +119,6 @@
             </div>
           </div>
 
-          <!-- Body -->
-          <a class="card-body" href="#!">
-
-            <!-- Heading -->
-            <h3>
-              Suiside By Country
-            </h3>
-
-            <!-- Text -->
-            <p class="mb-0 text-muted">
-              Cozy vibes are out and this summer you should focus on making customer's feel brave.
-            </p>
-
-          </a>
 
           <!-- Meta -->
           <a class="card-meta" href="#!">
@@ -134,19 +127,19 @@
             <hr class="card-meta-divider">
 
             <!-- Avatar -->
-            <div class="avatar avatar-sm me-2">
+            <!-- <div class="avatar avatar-sm me-2">
               <img src="../assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
-            </div>
+            </div> -->
 
             <!-- Author -->
-            <h6 class="text-uppercase text-muted me-2 mb-0">
+            <!-- <h6 class="text-uppercase text-muted me-2 mb-0">
               Danny Devito
-            </h6>
+            </h6> -->
 
             <!-- Date -->
-            <p class="h6 text-uppercase text-muted mb-0 ms-auto">
+            <!-- <p class="h6 text-uppercase text-muted mb-0 ms-auto">
               <time datetime="2019-05-02">May 02</time>
-            </p>
+            </p> -->
 
           </a>
 
@@ -344,6 +337,8 @@
 
   <!-- JAVASCRIPT -->
   <!-- Map JS -->
+  <script src="https://d3js.org/d3.v6.js"></script>
+
   <script src='../api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
 
   <!-- Vendor JS -->
@@ -351,6 +346,12 @@
 
   <!-- Theme JS -->
   <script src="assets/js/theme.bundle.js"></script>
+  <script src='data.js'></script>
+
+
+  <script>
+
+  </script>
 
 </body>
 
